@@ -1,0 +1,6 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.router-link-exact-active {
+  font-weight: 700;
+}
