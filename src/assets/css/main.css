@@ -4,3 +4,9 @@
 .router-link-exact-active {
   font-weight: 700;
 }
+.btn-success {
+  background-color: #28df99;
+}
+.btn-border-none {
+  border: none;
+}
