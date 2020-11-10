@@ -1,7 +1,12 @@
 <template>
   <div class="container mt-5">
     <div class="row">
-      <div class="col d-flex justify-content-center align-items-center">
+      <div class="col-md-6 oder-sm-1 order-md-2">
+        <img :src="hero" :alt="hero" width="500px" class="img-fluid" />
+      </div>
+      <div
+        class="col-md-6 order-sm-2 order-md-1 d-flex justify-content-center align-items-center"
+      >
         <div>
           <h1>
             <strong>Delicios Food Menu,</strong><br />
@@ -12,9 +17,6 @@
             >Pesan</router-link
           >
         </div>
-      </div>
-      <div class="col">
-        <img :src="hero" :alt="hero" width="500px" />
       </div>
     </div>
   </div>
