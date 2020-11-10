@@ -1,12 +1,12 @@
 <template>
   <div class="container mt-5">
     <div class="row">
-      <div class="col d-flex justify-content-center align-content-center">
+      <div class="col d-flex justify-content-center align-items-center">
         <div>
-          <h2>
+          <h1>
             <strong>Delicios Food Menu,</strong><br />
             in your mind
-          </h2>
+          </h1>
           <p>Makanan Lezat sedang menunggu mu di depan</p>
           <router-link class="btn btn-success btn-border-none" to="/"
             >Pesan</router-link

@@ -1,0 +1,26 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "code": "rv-b-01",
+      "food_name": "Sate Ayam",
+      "price": 3000,
+      "is_ready": true,
+      "satuan": "Tusuk",
+      "image": "sate_ayam.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 10,
+      "code": "rv-p-01",
+      "food_name": "Nasi Goreng",
+      "price": 12000,
+      "is_ready": true,
+      "satuan": "Porsi",
+      "image": "nasi_goreng.jpg"
+    }
+  ],
+  "keranjang": [],
+  "pesanan": []
+}
