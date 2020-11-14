@@ -19,9 +19,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
+        <div class="col-sm-12 col-md-4" v-for="item in products" :key="item.id">
+          <CardProduct :product="item" />
+        </div>
       </div>
     </div>
   </div>
@@ -29,11 +29,31 @@
 
 <script>
 import Hero from "@/components/Hero";
+import CardProduct from "@/components/cardProduct";
+import axios from "axios";
 
 export default {
   name: "Home",
   components: {
     Hero,
+    CardProduct,
+  },
+  data() {
+    return {
+      products: [],
+    };
+  },
+  methods: {
+    setProduct(data) {
+      console.log(data);
+      this.products = data;
+    },
+  },
+  mounted() {
+    axios
+      .get("http://localhost:3000/best-products")
+      .then((res) => this.setProduct(res.data))
+      .catch((err) => console.log(err));
   },
 };
 </script>
