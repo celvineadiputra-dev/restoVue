@@ -12,6 +12,7 @@ Vue.use(BootstrapVue);
 Vue.use(BootstrapVueIcons);
 
 Vue.config.productionTip = false;
+Vue.prototype.$base_url = "http://localhost:3000/";
 
 new Vue({
   router,

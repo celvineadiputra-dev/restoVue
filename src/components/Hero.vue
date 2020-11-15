@@ -13,7 +13,7 @@
             in your mind
           </h1>
           <p>Makanan Lezat sedang menunggu mu di depan</p>
-          <router-link class="btn btn-success btn-border-none" to="/"
+          <router-link class="btn btn-success btn-border-none" to="/foods"
             >Pesan</router-link
           >
         </div>

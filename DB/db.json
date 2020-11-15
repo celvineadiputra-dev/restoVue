@@ -46,6 +46,42 @@
       "is_ready": true,
       "satuan": "Porsi",
       "image": "nasi_goreng.jpg"
+    },
+    {
+      "id": 12,
+      "code": "rv-p-01",
+      "food_name": "Nasi Goreng",
+      "price": 12000,
+      "is_ready": true,
+      "satuan": "Porsi",
+      "image": "nasi_goreng.jpg"
+    },
+    {
+      "id": 13,
+      "code": "rv-p-01",
+      "food_name": "Nasi Goreng",
+      "price": 12000,
+      "is_ready": true,
+      "satuan": "Porsi",
+      "image": "nasi_goreng.jpg"
+    },
+    {
+      "id": 14,
+      "code": "rv-p-01",
+      "food_name": "Sate",
+      "price": 12000,
+      "is_ready": true,
+      "satuan": "Porsi",
+      "image": "nasi_goreng.jpg"
+    },
+    {
+      "id": 15,
+      "code": "rv-p-01",
+      "food_name": "Nasi Goreng",
+      "price": 12000,
+      "is_ready": true,
+      "satuan": "Porsi",
+      "image": "nasi_goreng.jpg"
     }
   ],
   "keranjang": [],
