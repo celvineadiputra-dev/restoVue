@@ -7,16 +7,25 @@
       "price": 3000,
       "is_ready": true,
       "satuan": "Tusuk",
-      "image": "sate_ayam.jpg"
+      "image": "Foods_1.jpg"
     },
     {
       "id": 2,
       "code": "rv-b-01",
-      "food_name": "Sate Ayam",
-      "price": 3000,
+      "food_name": "Bakso",
+      "price": 15000,
       "is_ready": true,
-      "satuan": "Tusuk",
-      "image": "sate_ayam.jpg"
+      "satuan": "Mangkok",
+      "image": "Foods_1.jpg"
+    },
+    {
+      "id": 3,
+      "code": "rv-b-01",
+      "food_name": "Martabak Manis",
+      "price": 25000,
+      "is_ready": true,
+      "satuan": "Bungkus",
+      "image": "Foods_1.jpg"
     }
   ],
   "products": [

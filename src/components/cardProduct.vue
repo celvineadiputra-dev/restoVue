@@ -1,9 +1,16 @@
 <template>
-  <div class="card">
-    <img src="/" class="card-img-top" alt="" />
+  <div class="card shadow my-4">
+    <img :src="'images/' + product.image" class="card-img-top" alt="" />
     <div class="card-body">
-      <div class="card-title">{{ product.food_name }}</div>
-      <div class="card-text">{{ product.food_name }}</div>
+      <h3 class="card-title font-weight-bold">
+        {{ product.food_name }}
+      </h3>
+      <div class="card-text">
+        <h6>Harga : {{ product.price }}/{{ product.satuan }}</h6>
+      </div>
+    </div>
+    <div class="card-footer">
+      <button class="btn btn-success w-100">Pesan</button>
     </div>
   </div>
 </template>
