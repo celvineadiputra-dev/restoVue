@@ -10,7 +10,9 @@
       </div>
     </div>
     <div class="card-footer">
-      <button class="btn btn-success w-100">Pesan</button>
+      <router-link :to="'/foods/' + product.id" class="btn btn-success w-100"
+        >Pesan</router-link
+      >
     </div>
   </div>
 </template>
