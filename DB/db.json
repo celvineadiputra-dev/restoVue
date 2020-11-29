@@ -84,6 +84,20 @@
       "image": "nasi_goreng.jpg"
     }
   ],
-  "keranjang": [],
+  "keranjang": [
+    {
+      "jumlah_pesanan": "10",
+      "product": {
+        "id": 10,
+        "code": "rv-p-01",
+        "food_name": "Nasi Goreng",
+        "price": 12000,
+        "is_ready": true,
+        "satuan": "Porsi",
+        "image": "Foods_1.jpg"
+      },
+      "id": 1
+    }
+  ],
   "pesanan": []
 }
